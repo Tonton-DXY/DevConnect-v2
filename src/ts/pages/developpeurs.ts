@@ -1,5 +1,9 @@
 import {} from "../data/db"
 
+/*========================================
+CONSTRUCTION ET INJECTION DES SKELETONS
+==========================================*/
+
 function cardSkeletons(): void {
     const container = document.querySelector (`.profils-cards`) as HTMLElement;
     if(!container) return;
@@ -17,3 +21,7 @@ function cardSkeletons(): void {
 }, 300000);
 }
 window.addEventListener('DOMContentLoaded', cardSkeletons);
+
+/*========================================
+CONSTRUCTION ET INJECTION DES CARTES
+==========================================*/

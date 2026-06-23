@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
 :root {
     /* background */
     --color-bg: #fff;
@@ -24,4 +27,8 @@
 
     /* shadow */
     --shadow-box: rgba(91, 79, 207, 0.1);
+
+    /* font-family */
+    --text-kodeMono:  "Kode Mono", monospace;
+ 
 }

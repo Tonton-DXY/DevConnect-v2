@@ -15,19 +15,14 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
         en</br>explorant leur portfolio.</p>
       <a class="hero__button" href="./src/pages/developpeurs.html">Explorer</a>
     </section>
-
-    <div class="all__domains">
-       <div class="tous-droits">
-        <p>© 2026. Tous droits réservés</p>
-      </div>
-      <div class="speciality">
-        <p class="domain">Front-end</p>
-        <p class="domain">Back-end</p>
-        <p class="domain">Full-stack</p>
-      </div>
+    <div class="all__domains"> 
+      <p class="domain">Front-end</p>
+      <p class="domain">Back-end</p>
+      <p class="domain">Full-stack</p>
     </div>
-
+    <footer class="footer">
+      <p class="copyright">© 2026 DevConnect · Tous droits réservés.</p>
+  </footer>
   </main>
-
-
-  `
+  
+`;
