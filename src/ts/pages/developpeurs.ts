@@ -1,4 +1,8 @@
-/* construction des skeletons*/
+import {} from "../data/db"
+
+/*========================================
+CONSTRUCTION ET INJECTION DES SKELETONS
+==========================================*/
 
 function cardSkeletons(): void {
     const container = document.querySelector ('main') as HTMLElement;
@@ -33,4 +37,6 @@ function cardSkeletons(): void {
 }
 window.addEventListener('DOMContentLoaded', cardSkeletons);
 
-/* Construction des skeletons fin */
+/*========================================
+CONSTRUCTION ET INJECTION DES CARTES
+==========================================*/

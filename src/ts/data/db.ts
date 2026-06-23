@@ -25,10 +25,10 @@ export const developpeurs: Developpeur[]= [
     },
     {
         nom: "Dodge Elfry NGUIA",
-        specialite: "Developpeur Front-end",
-        outils: [],
-        image: "../assets/img/",
-        lienPortfolio: "",
+        specialite: "Developpeur Fullstack",
+        outils: ["HTML", "CSS", "TypeScript", "Next.Js", "React", "Node.js", "ExpressJS", "Figma", "Github", "MySQL"],
+        image: "../assets/img/dodge.png",
+        lienPortfolio: "https://dodgeelfry.github.io/portfolio-updated/",
     },
     {
         nom: "Marva Lorene NSA",
