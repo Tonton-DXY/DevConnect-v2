@@ -256,3 +256,65 @@ img-dorsel {
       padding: 7px 15px;
    }
 }
+
+
+/*Style des skeletons */
+
+.sk-shimmer{
+   background: linear-gradient(90deg, #5b4fcf 5%, #e0e0e0 50%, #f0f0f0 75%);
+   background-size: 200% 100%;
+   animation: shimmer 5s infinite linear;
+}
+@keyframes shimmer{
+   0% {background-position: 200% 0;}
+   100% {background-position: -200% 0;}
+}
+.Tools1{
+   display: flex;
+   flex-direction: row;
+}
+.sk-card{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 30px;
+   box-sizing: border-box;
+   min-height: 350px;
+}
+.sk-avatar{
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   margin: 0 auto 15px;
+}
+.sk-name{
+   display: block;
+   width: 30%;
+   height: 10px;
+   border-radius: 4px;
+   margin: 15px auto 1px;
+}
+.sk-title{
+   display: block;
+   width: 40%;
+   height: 14px;
+   border-radius: 4px;
+   margin: 0 auto 20px;
+}
+.sk-li{
+   width: 50px;
+   height: 20px;
+   border-radius: 4px;
+   list-style: none;
+   margin: 5px;
+   flex-shrink: 0;
+}
+.sk-btn{
+   display: block;
+   width: 75%;
+   height: 20px;
+   border-radius: 6px;
+   margin: 20px auto 0;
+}
+
+/*Style des skeletons fin */
