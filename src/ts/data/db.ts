@@ -47,9 +47,9 @@ export const developpeurs: Developpeur[]= [
     {
         nom: "Fatoumata NSANGOU",
         specialite: "Developpeur Front-end",
-        outils: [],
-        image: "../assets/img/",
-        lienPortfolio: "",
+        outils: ["HTML5", "CSS3", "JavaScript", "Figma", "TypeScript", "Vite", "GitHub", "Git"],
+        image: "../assets/img/Fatou.png",
+        lienPortfolio: "https://fatim007.github.io/Portfolio/",
     },
     {
         nom: "Jeannisca NGUINA",
