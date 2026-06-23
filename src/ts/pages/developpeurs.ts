@@ -39,7 +39,7 @@ CONSTRUCTION DES SKELETONS
 
 function skeletonLoading() {
   return `${[1,2,3,4,5,6].map(() => `
-    <div class="card-dorsel sk-card sk-shimmer">
+    <div class="sk-card sk-shimmer">
         <div class="sk-avatar sk-shimmer"></div>
         <div class="sk-name sk-shimmer"></div>
         <div class="sk-title sk-shimmer"></div>
