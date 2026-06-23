@@ -1,244 +1,328 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="/src/assets/img/icon-logo.svg"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/developpeurs.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/src/assets/img/icon-logo.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/developpeurs.css" />
     <title>Page de Profils</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="home">
-            <img src="../assets/img/arrow-left-line.svg" class="arrow" alt="arrow-left-line">
-            <a href="/index.html" class="accueil-btn">Accueil</a>
-        </div>
-        <div class="logo">DevConnect</div>
+      <a class="home" href="/index.html" class="accueil-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="#555"
+          class="bi bi-house-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"
+          />
+          <path
+            d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"
+          />
+        </svg>
+      </a>
+      <div class="logo">DevConnect</div>
     </header>
 
-        <aside class="filtre">
-            <div class="filtre-container">
-                <button class="all-btn">Tous</button>
-                <button class="Full-stack-btn">Full-tack</button>
-                <button class="Back-end-btn">Back-end</button>
-                <button class="Front-end-btn">Frontend</button>
-            </div>
-        </aside>
+    <aside class="filtre">
+      <div class="filtre-container">
+        <button class="filter-btn all-btn">Tous</button>
+        <button class="filter-btn Full-stack-btn">Full-tack</button>
+        <button class="filter-btn Back-end-btn">Back-end</button>
+        <button class="filter-btn Front-end-btn">Frontend</button>
+      </div>
+    </aside>
     <main>
-        <h3>Tous les developpeurs</h3>
-        <section class="profils-cards" id="cards-container">
-            
-            <!-- <div class="card"> 
-                <img src="../assets/img/sterge.png" alt="picture">
-                <h3 class="name">Sterge Dorsel MBADINGA MBADINGA</h3>
-                <span class="job-tittle">Developpeur Front-end</span>
-                <ul class="Tools">
-                    <li>Figma</li>
-                    <li>Vs code</li>
-                    <li>Html5</li>
-                    <li>Css3</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>Note.js</li>
-                    <li>Vite</li>
-                    <li>github</li>
-                </ul>
-                <a href="https://tonton-dxy.github.io/TontonDXY.github.io/" class="voir-btn">Voir le portfolio</a>
-            </div>
-<<<<<<< HEAD
-            <div class="card">
-                <img src="../assets/img/abdoul.png" alt="picture">
-                <h3 class="name">Abdoul BAKARY</h3>
-                <span class="job-tittle">Developpeur Front-end</span>
-                <ul class="Tools">
-                    <li>Figma</li>
-                    <li>Vs code</li>
-                    <li>Html5</li>
-                    <li>Css3</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>Note.js</li>
-                    <li>Vite</li>
-                    <li>github</li>
-                </ul>
-                <a href="https://abdoul-12.github.io/Mon-portfolio/" class="voir-btn">Voir le portfolio</a>
-            </div>
-            <div class="card">
-                <img src="../assets/img/dodge.png" alt="picture">
-                <h3 class="name">Dodge Elfry NGUIA</h3>
-                <span class="job-tittle">Developpeur Front-end</span>
-                <ul class="Tools">
-                    <li>Figma</li>
-                    <li>Vs code</li>
-                    <li>Html5</li>
-                    <li>Css3</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>Note.js</li>
-                    <li>Vite</li>
-                    <li>github</li>
-                </ul>
-                <a href="https://dodgeelfry.github.io/portfolio-updated/" class="voir-btn">Voir le portfolio</a>
-            </div>
-            <div class="card">
-                <img src="../assets/img/marva.png" alt="picture">
-                <h3 class="name">Marva Lorene NSA</h3>
-                <span class="job-tittle">Developpeur Front-end</span>
-                <ul class="Tools">
-                    <li>Figma</li>
-                    <li>Vs code</li>
-                    <li>Html5</li>
-                    <li>Css3</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>Note.js</li>
-                    <li>Vite</li>
-                    <li>github</li>
-                </ul>
-                <a href="https://github.com/marvansa428-dev/portfolio-marva.git" class="voir-btn">Voir le portfolio</a>
-            </div>
-            <div class="card">
-                <img src="../assets/img/Jordan.png" alt="picture">
-                <h3 class="name">Christ Jordan OBIANG</h3>
-                <span class="job-tittle">Developpeur Front-end</span>
-                <ul class="Tools">
-                    <li>Figma</li>
-                    <li>Vs code</li>
-                    <li>Html5</li>
-                    <li>Css3</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>Note.js</li>
-                    <li>Vite</li>
-                    <li>github</li>
-                </ul>
-                <a href="https://jordancode28.github.io/mon_portfolio/" class="voir-btn">Voir le portfolio</a>
-            </div>
-            <div class="card">
-                <img src="../assets/img/Fatou.png" alt="picture">
-                <h3 class="name">Fatoumata NSANGOU</h3>
-                <span class="job-tittle">Developpeur Front-end</span>
-                <ul class="Tools">
-                    <li>Figma</li>
-                    <li>Vs code</li>
-                    <li>Html5</li>
-                    <li>Css3</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>Note.js</li>
-                    <li>Vite</li>
-                    <li>github</li>
-                </ul>
-                <a href="https://github.com/Fatim007/Portofolio" class="voir-btn">Voir le portfolio</a>
-            </div>
-            <div class="card">
-                <img src="../assets/img/jeannisca.png" alt="picture">
-                <h3 class="name">Jeannisca NGUINA</h3>
-                <span class="job-tittle">Developpeur Front-end</span>
-                <ul class="Tools">
-                    <li>Figma</li>
-                    <li>Vs code</li>
-                    <li>Html5</li>
-                    <li>Css3</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>Note.js</li>
-                    <li>Vite</li>
-                    <li>github</li>
-                </ul>
-                <a href="https://jeannisca.github.io/Portfolio_Jeanni/" class="voir-btn">Voir le portfolio</a>
-            </div>
-            <div class="card">
-                <img src="../assets/img/Dorcas.png" alt="picture">
-                <h3 class="name">Dorcas ANOUBALAMAH</h3>
-                <span class="job-tittle">Developpeur Front-end</span>
-                <ul class="Tools">
-                    <li>Figma</li>
-                    <li>Vs code</li>
-                    <li>Html5</li>
-                    <li>Css3</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>Note.js</li>
-                    <li>Vite</li>
-                    <li>github</li>
-                </ul>
-                <a href="" class="voir-btn">Voir le portfolio</a>
-            </div>
-            <div class="card">
-                <img src="../assets/img/nancy.png" alt="picture">
-                <h3 class="name">Nancy MALAMENOU</h3>
-                <span class="job-tittle">Developpeur Front-end</span>
-                <ul class="Tools">
-                    <li>Figma</li>
-                    <li>Vs code</li>
-                    <li>Html5</li>
-                    <li>Css3</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>Note.js</li>
-                    <li>Vite</li>
-                    <li>github</li>
-                </ul>
-                <a href="https://nancynelle34-pixel.github.io/mon_portfolio/" class="voir-btn">Voir le portfolio</a>
-            </div>
-            <div class="card">
-                <img src="../assets/img/lupin.png" alt="picture">
-                <h3 class="name">Lupin KOMBILA</h3>
-                <span class="job-tittle">Developpeur Front-end</span>
-                <ul class="Tools">
-                    <li>Figma</li>
-                    <li>Vs code</li>
-                    <li>Html5</li>
-                    <li>Css3</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>Note.js</li>
-                    <li>Vite</li>
-                    <li>github</li>
-                </ul>
-                <a href="" class="voir-btn">Voir le portfolio</a>
-            </div>
-            <div class="card">
-                <img src="" alt="picture">
-                <h3 class="name">Faustin MIHINDOU</h3>
-                <span class="job-tittle">Developpeur Front-end</span>
-                <ul class="Tools">
-                    <li>Figma</li>
-                    <li>Vs code</li>
-                    <li>Html5</li>
-                    <li>Css3</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>Note.js</li>
-                    <li>Vite</li>
-                    <li>github</li>
-                </ul>
-                <a href="" class="voir-btn">Voir le portfolio</a>
-            </div>
-            <div class="card">
-                <img src="" alt="picture">
-                <h3 class="name">Dalhia OBAME</h3>
-                <span class="job-tittle">Developpeur Front-end</span>
-                <ul class="Tools">
-                    <li>Figma</li>
-                    <li>Vs code</li>
-                    <li>Html5</li>
-                    <li>Css3</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>Note.js</li>
-                    <li>Vite</li>
-                    <li>github</li>
-                </ul>
-                <a href="https://github.com/daliahobame167-dot/workspace" class="voir-btn">Voir le portfolio</a>
-            </div> -->
-
-        </section>
+      <h3>Tous les developpeurs</h3>
+      <section class="profils-cards" id="cards-container">
+        <!-- <div class="card">
+          <img
+            src="../assets/img/sterge.png"
+            alt="picture"
+            class="profil-photo"
+          />
+          <h3 class="name">Sterge Dorsel MBADINGA MBADINGA</h3>
+          <span class="job-tittle">Developpeur Front-end</span>
+          <ul class="Tools">
+            <li>Figma</li>
+            <li>Vs code</li>
+            <li>Html5</li>
+            <li>Css3</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Note.js</li>
+            <li>Vite</li>
+            <li>github</li>
+          </ul>
+          <a
+            href="https://tonton-dxy.github.io/TontonDXY.github.io/"
+            class="voir-btn"
+            >Voir le portfolio</a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="../assets/img/abdoul.png"
+            alt="picture"
+            class="profil-photo"
+          />
+          <h3 class="name">Abdoul BAKARY</h3>
+          <span class="job-tittle">Developpeur Front-end</span>
+          <ul class="Tools">
+            <li>Figma</li>
+            <li>Vs code</li>
+            <li>Html5</li>
+            <li>Css3</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Note.js</li>
+            <li>Vite</li>
+            <li>github</li>
+          </ul>
+          <a href="https://abdoul-12.github.io/Mon-portfolio/" class="voir-btn"
+            >Voir le portfolio</a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="../assets/img/dodge.png"
+            alt="picture"
+            class="profil-photo"
+          />
+          <h3 class="name">Dodge Elfry NGUIA</h3>
+          <span class="job-tittle">Developpeur Front-end</span>
+          <ul class="Tools">
+            <li>Figma</li>
+            <li>Vs code</li>
+            <li>Html5</li>
+            <li>Css3</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Note.js</li>
+            <li>Vite</li>
+            <li>github</li>
+          </ul>
+          <a
+            href="https://dodgeelfry.github.io/portfolio-updated/"
+            class="voir-btn"
+            >Voir le portfolio</a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="../assets/img/marva.png"
+            alt="picture"
+            class="profil-photo"
+          />
+          <h3 class="name">Marva Lorene NSA</h3>
+          <span class="job-tittle">Developpeur Front-end</span>
+          <ul class="Tools">
+            <li>Figma</li>
+            <li>Vs code</li>
+            <li>Html5</li>
+            <li>Css3</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Note.js</li>
+            <li>Vite</li>
+            <li>github</li>
+          </ul>
+          <a
+            href="https://github.com/marvansa428-dev/portfolio-marva.git"
+            class="voir-btn"
+            >Voir le portfolio</a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="../assets/img/Jordan.png"
+            alt="picture"
+            class="profil-photo"
+          />
+          <h3 class="name">Christ Jordan OBIANG</h3>
+          <span class="job-tittle">Developpeur Front-end</span>
+          <ul class="Tools">
+            <li>Figma</li>
+            <li>Vs code</li>
+            <li>Html5</li>
+            <li>Css3</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Note.js</li>
+            <li>Vite</li>
+            <li>github</li>
+          </ul>
+          <a
+            href="https://jordancode28.github.io/mon_portfolio/"
+            class="voir-btn"
+            >Voir le portfolio</a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="../assets/img/Fatou.png"
+            alt="picture"
+            class="profil-photo"
+          />
+          <h3 class="name">Fatoumata NSANGOU</h3>
+          <span class="job-tittle">Developpeur Front-end</span>
+          <ul class="Tools">
+            <li>Figma</li>
+            <li>Vs code</li>
+            <li>Html5</li>
+            <li>Css3</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Note.js</li>
+            <li>Vite</li>
+            <li>github</li>
+          </ul>
+          <a href="https://github.com/Fatim007/Portofolio" class="voir-btn"
+            >Voir le portfolio</a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="../assets/img/jeannisca.png"
+            alt="picture"
+            class="profil-photo"
+          />
+          <h3 class="name">Jeannisca NGUINA</h3>
+          <span class="job-tittle">Developpeur Front-end</span>
+          <ul class="Tools">
+            <li>Figma</li>
+            <li>Vs code</li>
+            <li>Html5</li>
+            <li>Css3</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Note.js</li>
+            <li>Vite</li>
+            <li>github</li>
+          </ul>
+          <a
+            href="https://jeannisca.github.io/Portfolio_Jeanni/"
+            class="voir-btn"
+            >Voir le portfolio</a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="../assets/img/Dorcas.png"
+            alt="picture"
+            class="profil-photo"
+          />
+          <h3 class="name">Dorcas ANOUBALAMAH</h3>
+          <span class="job-tittle">Developpeur Front-end</span>
+          <ul class="Tools">
+            <li>Figma</li>
+            <li>Vs code</li>
+            <li>Html5</li>
+            <li>Css3</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Note.js</li>
+            <li>Vite</li>
+            <li>github</li>
+          </ul>
+          <a href="" class="voir-btn">Voir le portfolio</a>
+        </div>
+        <div class="card">
+          <img
+            src="../assets/img/nancy.png"
+            alt="picture"
+            class="profil-photo"
+          />
+          <h3 class="name">Nancy MALAMENOU</h3>
+          <span class="job-tittle">Developpeur Front-end</span>
+          <ul class="Tools">
+            <li>Figma</li>
+            <li>Vs code</li>
+            <li>Html5</li>
+            <li>Css3</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Note.js</li>
+            <li>Vite</li>
+            <li>github</li>
+          </ul>
+          <a
+            href="https://nancynelle34-pixel.github.io/mon_portfolio/"
+            class="voir-btn"
+            >Voir le portfolio</a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="../assets/img/lupin.png"
+            alt="picture"
+            class="profil-photo"
+          />
+          <h3 class="name">Lupin KOMBILA</h3>
+          <span class="job-tittle">Developpeur Front-end</span>
+          <ul class="Tools">
+            <li>Figma</li>
+            <li>Vs code</li>
+            <li>Html5</li>
+            <li>Css3</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Note.js</li>
+            <li>Vite</li>
+            <li>github</li>
+          </ul>
+          <a href="" class="voir-btn">Voir le portfolio</a>
+        </div>
+        <div class="card">
+          <img src="" alt="picture" class="profil-photo" />
+          <h3 class="name">Faustin MIHINDOU</h3>
+          <span class="job-tittle">Developpeur Front-end</span>
+          <ul class="Tools">
+            <li>Figma</li>
+            <li>Vs code</li>
+            <li>Html5</li>
+            <li>Css3</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Note.js</li>
+            <li>Vite</li>
+            <li>github</li>
+          </ul>
+          <a href="" class="voir-btn">Voir le portfolio</a>
+        </div>
+        <div class="card">
+          <img src="" alt="picture" class="profil-photo" />
+          <h3 class="name">Dalhia OBAME</h3>
+          <span class="job-tittle">Developpeur Front-end</span>
+          <ul class="Tools">
+            <li>Figma</li>
+            <li>Vs code</li>
+            <li>Html5</li>
+            <li>Css3</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Note.js</li>
+            <li>Vite</li>
+            <li>github</li>
+          </ul>
+          <a
+            href="https://github.com/daliahobame167-dot/workspace"
+            class="voir-btn"
+            >Voir le portfolio</a
+          >
+        </div> -->
+      </section>
     </main>
     <script type="module" src="../ts/pages/developpeurs.ts"></script>
-</body>
-
+  </body>
 </html>

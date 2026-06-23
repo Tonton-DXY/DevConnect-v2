@@ -4,3 +4,9 @@
     color: var(--color-text);
     box-sizing: border-box;
 }
+
+a, button {
+    text-decoration: none;
+    background: none;
+    border: none;
+}
