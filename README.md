@@ -69,6 +69,11 @@ DevConnect/
 ```bash
     git push upstream NomDeVotreBranche
 ```
+13. Installer la librairie Typed.js via Gestionnaires de paquets(npm/yarn)
+    ```bash
+        npm : npm install typed.js
+        yarn : yarn add typed.js
+    ```
 *Assurez vous d'être régulièrement à jour sur la branche develop*
 
 ### Déploiement
